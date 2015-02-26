@@ -287,4 +287,11 @@ textarea {
 
 figure {
     margin: 0px;
+    background-color: #323434;
+}
+
+figure img {
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
 }
