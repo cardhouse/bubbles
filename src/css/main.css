@@ -195,68 +195,86 @@ textarea {
     clear: both;
     width: 100%;
     background-image:url("../img/curious_chihuahua.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
     display: block;
-    background-position: 0% 0%;
-    background-repeat: no-repeat no-repeat;
 }
 
 #book-btn {
     float: left;
     height: 70px;
-    font-size: 1.6em;
+    font-size: 1.2em;
     margin-left: 49.996745%;
     margin-top: 30px;
     clear: none;
     width: 40%;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     background-color: rgb(231, 164, 201);
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
     border-bottom-left-radius: 35px;
     color: rgb(255, 245, 217);
-    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
 }
 
 #find-btn {
     float: left;
     height: 70px;
-    font-size: 1.6em;
+    font-size: 1.2em;
     margin-left: 49.996745%;
     margin-top: 20px;
     clear: both;
     width: 40%;
     margin-right: 0%;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     background-color: rgb(231, 164, 201);
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
     border-bottom-left-radius: 35px;
     color: rgb(255, 245, 217);
-    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
 }
 
 #join-btn {
     float: left;
     height: 70px;
-    font-size: 1.6em;
+    font-size: 1.2em;
     margin-left: 49.996745%;
     margin-top: 20px;
     clear: both;
     width: 40%;
     margin-right: 0%;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     background-color: rgb(231, 164, 201);
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
     border-bottom-left-radius: 35px;
     color: rgb(255, 245, 217);
-    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
     -webkit-box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
     box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
 }
@@ -301,13 +319,19 @@ textarea {
     margin-top: 15px;
     clear: none;
     width: 40%;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
     border-bottom-left-radius: 35px;
     color: rgb(255, 245, 217);
-    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
     background-color: rgb(74, 112, 124);
     margin-right: 0%;
 }
@@ -320,13 +344,19 @@ textarea {
     margin-top: 15px;
     clear: none;
     width: 40%;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
     border-bottom-left-radius: 35px;
     color: rgb(255, 245, 217);
-    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
     margin-right: 0%;
     background-color: rgb(74, 112, 124);
 }
@@ -334,21 +364,21 @@ textarea {
 #book-btn:hover {
     background-color: rgb(244, 203, 228);
     color: rgb(74, 112, 124);
-    font-size: 1.7em;
+    font-size: 1.3em;
     font-weight: 600;
 }
 
 #find-btn:hover {
     background-color: rgb(244, 203, 228);
     color: rgb(74, 112, 124);
-    font-size: 1.7em;
+    font-size: 1.3em;
     font-weight: 600;
 }
 
 #join-btn:hover {
     background-color: rgb(244, 203, 228);
     color: rgb(74, 112, 124);
-    font-size: 1.7em;
+    font-size: 1.3em;
     font-weight: 600;
 }
 
@@ -372,13 +402,28 @@ textarea {
     min-height: 300px;
     margin-right: auto;
     background-color: rgb(255, 245, 217);
-    border: 6px solid rgb(244, 203, 228);
+    border-bottom-color: rgb(244, 203, 228);
+    border-bottom-width: 6px;
+    border-bottom-style: solid;
+    border-top-color: rgb(244, 203, 228);
+    border-right-color: rgb(244, 203, 228);
+    border-left-color: rgb(244, 203, 228);
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-left-width: 6px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    border-bottom-left-radius: 33px;
 }
 
 #contact-h {
     float: none;
-    font-size: 1.4em;
-    width: 39%;
+    font-size: 1em;
+    width: 41%;
     height: auto;
     text-align: center;
     font-weight: 600;
@@ -412,7 +457,7 @@ textarea {
 
 #book-btn1:hover {
     color: rgb(74, 112, 124);
-    font-size: 1.7em;
+    font-size: 1.6em;
     font-weight: 600;
     background-color: rgb(244, 203, 228);
 }
@@ -421,17 +466,26 @@ textarea {
     float: none;
     height: 70px;
     font-size: 1.6em;
-    margin: 20px auto;
+    margin-left: auto;
+    margin-top: 20px;
     clear: none;
     width: 51.618118%;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
     border-bottom-left-radius: 35px;
     color: rgb(255, 245, 217);
-    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
     background-color: rgb(231, 164, 201);
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 #map-window {
@@ -442,20 +496,35 @@ textarea {
     clear: none;
     width: 85%;
     min-height: 300px;
-    border: 6px solid rgb(244, 203, 228);
+    border-bottom-color: rgb(244, 203, 228);
+    border-bottom-width: 6px;
+    border-bottom-style: solid;
+    border-top-color: rgb(244, 203, 228);
+    border-right-color: rgb(244, 203, 228);
+    border-left-color: rgb(244, 203, 228);
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-left-width: 6px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
     background-color: rgb(255, 245, 217);
     margin-right: auto;
     background-image:url("../img/bubbles_street_map.png");
+    background-position: 0% 40%;
+    background-repeat: no-repeat;
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
-    background-position: 0% 40%;
-    background-repeat: no-repeat no-repeat;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    border-bottom-left-radius: 33px;
 }
 
 #find-btn1:hover {
     color: rgb(74, 112, 124);
-    font-size: 1.7em;
+    font-size: 1.6em;
     font-weight: 600;
     background-color: rgb(244, 203, 228);
 }
@@ -464,16 +533,25 @@ textarea {
     float: none;
     height: 70px;
     font-size: 1.6em;
-    margin: 212px auto 20px;
+    margin-left: auto;
+    margin-top: 212px;
     clear: none;
     width: 51.618118%;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
     border-bottom-left-radius: 35px;
     color: rgb(255, 245, 217);
-    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    margin-right: auto;
+    margin-bottom: 20px;
     background-color: rgb(231, 164, 201);
 }
 
@@ -485,14 +563,29 @@ textarea {
     clear: none;
     width: 85%;
     min-height: 300px;
-    border: 6px solid rgb(244, 203, 228);
+    border-bottom-color: rgb(244, 203, 228);
+    border-bottom-width: 6px;
+    border-bottom-style: solid;
+    border-top-color: rgb(244, 203, 228);
+    border-right-color: rgb(244, 203, 228);
+    border-left-color: rgb(244, 203, 228);
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-left-width: 6px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
     background-color: rgb(255, 245, 217);
     margin-right: auto;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    border-bottom-left-radius: 33px;
 }
 
 #join-h {
     float: none;
-    font-size: 1.4em;
+    font-size: 1em;
     width: 64%;
     height: auto;
     text-align: center;
@@ -512,7 +605,7 @@ textarea {
 
 #join-btn1:hover {
     color: rgb(74, 112, 124);
-    font-size: 1.7em;
+    font-size: 1.6em;
     font-weight: 600;
     background-color: rgb(244, 203, 228);
 }
@@ -521,16 +614,25 @@ textarea {
     float: none;
     height: 70px;
     font-size: 1.6em;
-    margin: 20px auto;
+    margin-left: auto;
+    margin-top: 20px;
     clear: none;
     width: 51.618118%;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
     border-bottom-left-radius: 35px;
     color: rgb(255, 245, 217);
-    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    margin-right: auto;
+    margin-bottom: 20px;
     background-color: rgb(231, 164, 201);
 }
 
@@ -586,7 +688,7 @@ textarea {
 
 @media only screen and (min-width: 481px) {
     #join-h {
-        font-size: 2em;
+        font-size: 1.6em;
         min-height: 33px;
         width: 70%;
     }
@@ -598,7 +700,7 @@ textarea {
 
     #contact-h {
         min-height: 30px;
-        font-size: 2em;
+        font-size: 1.5em;
         width: 40%;
     }
 
@@ -621,6 +723,25 @@ textarea {
     #foot {
         height: auto;
     }
+
+    #join-btn {
+        font-size: 1.5em;
+        height: 80px;
+    }
+
+    #book-btn {
+        font-size: 1.5em;
+        height: 80px;
+    }
+
+    #find-btn {
+        font-size: 1.5em;
+        height: 80px;
+    }
+
+    #hero-cta {
+        height: 340px;
+    }
 }
 
 @media only screen and (min-width: 641px) {
@@ -631,7 +752,7 @@ textarea {
     #book-btn {
         height: 120px;
         width: 44%;
-        font-size: 3.2em;
+        font-size: 2.2em;
         border-top-left-radius: 60px;
         border-top-right-radius: 60px;
         border-bottom-right-radius: 60px;
@@ -642,7 +763,7 @@ textarea {
     #find-btn {
         height: 120px;
         width: 44%;
-        font-size: 3.2em;
+        font-size: 2.2em;
         border-top-left-radius: 60px;
         border-top-right-radius: 60px;
         border-bottom-right-radius: 60px;
@@ -653,7 +774,7 @@ textarea {
     #join-btn {
         height: 120px;
         width: 44%;
-        font-size: 3.2em;
+        font-size: 2.2em;
         border-top-left-radius: 60px;
         border-top-right-radius: 60px;
         border-bottom-right-radius: 60px;
@@ -662,21 +783,21 @@ textarea {
     }
 
     #book-btn:hover {
-        font-size: 3.3em;
+        font-size: 2.3em;
     }
 
     #find-btn:hover {
-        font-size: 3.3em;
+        font-size: 2.3em;
     }
 
     #join-btn:hover {
-        font-size: 3.3em;
+        font-size: 2.3em;
     }
 
     #contact-h {
-        font-size: 3.6em;
+        font-size: 2.7em;
         width: 50%;
-        min-height: 66px;
+        min-height: 55px;
         margin-top: 40px;
     }
 
@@ -723,15 +844,15 @@ textarea {
     }
 
     #book-btn1:hover {
-        font-size: 2.4em;
+        font-size: 3em;
     }
 
     #find-btn1:hover {
-        font-size: 2.4em;
+        font-size: 3em;
     }
 
     #join-btn1:hover {
-        font-size: 2.4em;
+        font-size: 3em;
     }
 
     #story-btn {
@@ -755,11 +876,11 @@ textarea {
     }
 
     #story-btn:hover {
-        font-size: 2.2em;
+        font-size: 2.1em;
     }
 
     #work-btn:hover {
-        font-size: 2.2em;
+        font-size: 2.1em;
     }
 
     #ltpink-div {
@@ -767,14 +888,18 @@ textarea {
     }
 
     #join-h {
-        font-size: 3.5em;
+        font-size: 2.4em;
         width: 80%;
-        min-height: 64px;
+        min-height: 50px;
         margin-top: 40px;
     }
 
     #map-window {
         min-height: 400px;
+        border-top-left-radius: 45px;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-bottom-left-radius: 45px;
     }
 
     #join-p {
@@ -815,7 +940,83 @@ textarea {
         margin-top: 10px;
         margin-bottom: 20px;
     }
+
+    #join-window {
+        border-top-left-radius: 45px;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-bottom-left-radius: 45px;
+    }
+
+    #contact-window {
+        border-top-left-radius: 45px;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-bottom-left-radius: 45px;
+    }
 }
+
+@media only screen and (min-width: 961px) {
+    #contact-h {
+        font-size: 3.8em;
+        min-height: 72px;
+    }
+
+    #hero-cta {
+        height: 640px;
+    }
+
+    #book-btn {
+        height: 160px;
+        border-top-left-radius: 80px;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+        font-size: 3.1em;
+    }
+
+    #find-btn {
+        height: 160px;
+        border-top-left-radius: 80px;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+        font-size: 3.1em;
+    }
+
+    #join-btn {
+        height: 160px;
+        border-top-left-radius: 80px;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+        font-size: 3.1em;
+    }
+
+    #work-btn {
+        font-size: 2.5em;
+        height: 100px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+
+    #story-btn {
+        font-size: 2.5em;
+        height: 100px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+
+    #join-h {
+        font-size: 3.4em;
+        min-height: 64px;
+    }
+}
+
 
 
 
