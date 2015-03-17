@@ -194,7 +194,7 @@ textarea {
     margin-top: 0px;
     clear: both;
     width: 100%;
-    background-image:url("img/curious_chihuahua.png");
+    background-image:url("../img/curious_chihuahua.png");
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
@@ -445,7 +445,7 @@ textarea {
     border: 6px solid rgb(244, 203, 228);
     background-color: rgb(255, 245, 217);
     margin-right: auto;
-    background-image:url("img/bubbles_street_map.png");
+    background-image:url("../img/bubbles_street_map.png");
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
