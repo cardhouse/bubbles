@@ -166,7 +166,7 @@ textarea {
     top: 0px;
     left: 0px;
     z-index: 2;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: 5%;
     clear: none;
     margin-bottom: 10px;
@@ -194,7 +194,7 @@ textarea {
     margin-top: 0px;
     clear: both;
     width: 100%;
-    background-image:url("../img/curious_chihuahua.png");
+    background-image:url("img/curious_chihuahua.png");
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
@@ -386,7 +386,7 @@ textarea {
     margin-left: auto;
     margin-top: 30px;
     clear: none;
-    min-height: 27px;
+    min-height: 28px;
     margin-right: auto;
     border-bottom-width: 2px;
     color: rgb(74, 112, 124);
@@ -445,7 +445,7 @@ textarea {
     border: 6px solid rgb(244, 203, 228);
     background-color: rgb(255, 245, 217);
     margin-right: auto;
-    background-image:url("../img/bubbles_street_map.png");
+    background-image:url("img/bubbles_street_map.png");
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
@@ -583,6 +583,241 @@ textarea {
     min-width: 0px;
     margin-right: auto;
 }
+
+@media only screen and (min-width: 481px) {
+    #join-h {
+        font-size: 2em;
+        min-height: 33px;
+        width: 70%;
+    }
+
+    #join-p {
+        font-size: 1.4em;
+        margin-top: 15px;
+    }
+
+    #contact-h {
+        min-height: 30px;
+        font-size: 2em;
+        width: 40%;
+    }
+
+    #contact-p {
+        font-size: 1.8em;
+    }
+
+    #copyright {
+        width: 85%;
+        margin-top: 15px;
+        font-size: 1em;
+    }
+
+    #designer {
+        margin-top: 7px;
+        margin-bottom: 20px;
+        font-size: 0.9em;
+    }
+
+    #foot {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    #hero-cta {
+        height: 520px;
+    }
+
+    #book-btn {
+        height: 120px;
+        width: 44%;
+        font-size: 3.2em;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+        margin-top: 40px;
+    }
+
+    #find-btn {
+        height: 120px;
+        width: 44%;
+        font-size: 3.2em;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+        margin-top: 40px;
+    }
+
+    #join-btn {
+        height: 120px;
+        width: 44%;
+        font-size: 3.2em;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+        margin-top: 40px;
+    }
+
+    #book-btn:hover {
+        font-size: 3.3em;
+    }
+
+    #find-btn:hover {
+        font-size: 3.3em;
+    }
+
+    #join-btn:hover {
+        font-size: 3.3em;
+    }
+
+    #contact-h {
+        font-size: 3.6em;
+        width: 50%;
+        min-height: 66px;
+        margin-top: 40px;
+    }
+
+    #contact-p {
+        font-size: 2.6em;
+        margin-top: 35px;
+    }
+
+    #book-btn1 {
+        width: 50%;
+        height: 100px;
+        font-size: 3em;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    #find-btn1 {
+        width: 50%;
+        height: 100px;
+        font-size: 3em;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin-top: 300px;
+        clear: none;
+        margin-bottom: 40px;
+    }
+
+    #join-btn1 {
+        width: 50%;
+        height: 100px;
+        font-size: 3em;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    #book-btn1:hover {
+        font-size: 2.4em;
+    }
+
+    #find-btn1:hover {
+        font-size: 2.4em;
+    }
+
+    #join-btn1:hover {
+        font-size: 2.4em;
+    }
+
+    #story-btn {
+        font-size: 2em;
+        height: 86px;
+        border-top-left-radius: 43px;
+        border-top-right-radius: 43px;
+        border-bottom-right-radius: 43px;
+        border-bottom-left-radius: 43px;
+        margin-bottom: 15px;
+    }
+
+    #work-btn {
+        font-size: 2em;
+        height: 86px;
+        border-top-left-radius: 43px;
+        border-top-right-radius: 43px;
+        border-bottom-right-radius: 43px;
+        border-bottom-left-radius: 43px;
+        margin-bottom: 15px;
+    }
+
+    #story-btn:hover {
+        font-size: 2.2em;
+    }
+
+    #work-btn:hover {
+        font-size: 2.2em;
+    }
+
+    #ltpink-div {
+        height: auto;
+    }
+
+    #join-h {
+        font-size: 3.5em;
+        width: 80%;
+        min-height: 64px;
+        margin-top: 40px;
+    }
+
+    #map-window {
+        min-height: 400px;
+    }
+
+    #join-p {
+        font-size: 2em;
+        margin-top: 25px;
+    }
+
+    #name-input {
+        height: 55px;
+        margin-top: 30px;
+    }
+
+    #email-input {
+        height: 55px;
+        margin-top: 30px;
+    }
+
+    #dog-input {
+        height: 55px;
+        margin-top: 30px;
+    }
+
+    #bps-logo {
+        width: 150px;
+    }
+
+    #copyright {
+        margin-top: 20px;
+        font-size: 1.4em;
+    }
+
+    #foot {
+        height: auto;
+    }
+
+    #designer {
+        font-size: 1.2em;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+
 
 
 
