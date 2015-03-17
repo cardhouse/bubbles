@@ -93,6 +93,497 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#foot {
+    float: none;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(39, 34, 35);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 17;
+    margin-top: 0px;
+    margin-left: auto;
+    clear: both;
+    margin-right: auto;
+}
+
+#dkpink-div {
+    float: left;
+    height: auto;
+    width: 100%;
+    background-color: rgb(231, 164, 201);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 14;
+    padding-bottom: 40px;
+    margin-top: 0px;
+    margin-left: 0%;
+    clear: both;
+}
+
+#ltpink-div {
+    float: left;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(244, 203, 228);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 11;
+}
+
+#ltblu-div {
+    float: left;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(204, 234, 235);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 8;
+    margin-top: 0px;
+    margin-left: 0%;
+    clear: both;
+}
+
+#bps-logo {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    margin-top: 15px;
+    margin-left: 5%;
+    clear: none;
+    margin-bottom: 10px;
+}
+
+#navbar {
+    float: left;
+    height: auto;
+    width: 100%;
+    background-color: rgb(84, 140, 149);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: 0%;
+    clear: none;
+    padding-bottom: 10px;
+}
+
+#hero-cta {
+    margin-left: 0%;
+    float: left;
+    height: 320px;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    background-image:url("../img/curious_chihuahua.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#book-btn {
+    float: left;
+    height: 70px;
+    font-size: 1.6em;
+    margin-left: 49.996745%;
+    margin-top: 30px;
+    clear: none;
+    width: 40%;
+    padding: 0px;
+    background-color: rgb(231, 164, 201);
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    color: rgb(255, 245, 217);
+    border-width: 0px;
+}
+
+#find-btn {
+    float: left;
+    height: 70px;
+    font-size: 1.6em;
+    margin-left: 49.996745%;
+    margin-top: 20px;
+    clear: both;
+    width: 40%;
+    margin-right: 0%;
+    padding: 0px;
+    background-color: rgb(231, 164, 201);
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    color: rgb(255, 245, 217);
+    border-width: 0px;
+}
+
+#join-btn {
+    float: left;
+    height: 70px;
+    font-size: 1.6em;
+    margin-left: 49.996745%;
+    margin-top: 20px;
+    clear: both;
+    width: 40%;
+    margin-right: 0%;
+    padding: 0px;
+    background-color: rgb(231, 164, 201);
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    color: rgb(255, 245, 217);
+    border-width: 0px;
+    -webkit-box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
+}
+
+#copyright {
+    float: none;
+    font-size: 0.8em;
+    width: 84.136874%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 10px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 245, 217);
+    margin-right: auto;
+}
+
+#designer {
+    float: none;
+    font-size: 0.7em;
+    width: 84.136874%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 5px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 245, 217);
+    margin-right: auto;
+}
+
+#story-btn {
+    float: left;
+    height: 70px;
+    font-size: 1.4em;
+    margin-left: 6.33155%;
+    margin-top: 15px;
+    clear: none;
+    width: 40%;
+    padding: 0px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    color: rgb(255, 245, 217);
+    border-width: 0px;
+    background-color: rgb(74, 112, 124);
+    margin-right: 0%;
+}
+
+#work-btn {
+    float: left;
+    height: 70px;
+    font-size: 1.4em;
+    margin-left: 7.443894%;
+    margin-top: 15px;
+    clear: none;
+    width: 40%;
+    padding: 0px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    color: rgb(255, 245, 217);
+    border-width: 0px;
+    margin-right: 0%;
+    background-color: rgb(74, 112, 124);
+}
+
+#book-btn:hover {
+    background-color: rgb(244, 203, 228);
+    color: rgb(74, 112, 124);
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+#find-btn:hover {
+    background-color: rgb(244, 203, 228);
+    color: rgb(74, 112, 124);
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+#join-btn:hover {
+    background-color: rgb(244, 203, 228);
+    color: rgb(74, 112, 124);
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+#story-btn:hover {
+    color: rgb(74, 112, 124);
+    background-color: rgb(204, 234, 235);
+}
+
+#work-btn:hover {
+    color: rgb(74, 112, 124);
+    background-color: rgb(204, 234, 235);
+}
+
+#contact-window {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    clear: none;
+    width: 85%;
+    min-height: 300px;
+    margin-right: auto;
+    background-color: rgb(255, 245, 217);
+    border: 6px solid rgb(244, 203, 228);
+}
+
+#contact-h {
+    float: none;
+    font-size: 1.4em;
+    width: 39%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 30px;
+    clear: none;
+    min-height: 27px;
+    margin-right: auto;
+    border-bottom-width: 2px;
+    color: rgb(74, 112, 124);
+    border-bottom-color: rgb(74, 112, 124);
+    border-bottom-style: solid;
+}
+
+#contact-p {
+    float: none;
+    font-size: 1.2em;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 25px;
+    clear: none;
+    min-height: 120px;
+    margin-right: auto;
+    color: rgb(74, 112, 124);
+}
+
+#book-btn1:hover {
+    color: rgb(74, 112, 124);
+    font-size: 1.7em;
+    font-weight: 600;
+    background-color: rgb(244, 203, 228);
+}
+
+#book-btn1 {
+    float: none;
+    height: 70px;
+    font-size: 1.6em;
+    margin: 20px auto;
+    clear: none;
+    width: 51.618118%;
+    padding: 0px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    color: rgb(255, 245, 217);
+    border-width: 0px;
+    background-color: rgb(231, 164, 201);
+}
+
+#map-window {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    clear: none;
+    width: 85%;
+    min-height: 300px;
+    border: 6px solid rgb(244, 203, 228);
+    background-color: rgb(255, 245, 217);
+    margin-right: auto;
+    background-image:url("../img/bubbles_street_map.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0% 40%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#find-btn1:hover {
+    color: rgb(74, 112, 124);
+    font-size: 1.7em;
+    font-weight: 600;
+    background-color: rgb(244, 203, 228);
+}
+
+#find-btn1 {
+    float: none;
+    height: 70px;
+    font-size: 1.6em;
+    margin: 212px auto 20px;
+    clear: none;
+    width: 51.618118%;
+    padding: 0px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    color: rgb(255, 245, 217);
+    border-width: 0px;
+    background-color: rgb(231, 164, 201);
+}
+
+#join-window {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    clear: none;
+    width: 85%;
+    min-height: 300px;
+    border: 6px solid rgb(244, 203, 228);
+    background-color: rgb(255, 245, 217);
+    margin-right: auto;
+}
+
+#join-h {
+    float: none;
+    font-size: 1.4em;
+    width: 64%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 30px;
+    clear: none;
+    min-height: 27px;
+    margin-right: auto;
+    border-bottom-width: 2px;
+    color: rgb(74, 112, 124);
+    border-bottom-color: rgb(74, 112, 124);
+    border-bottom-style: solid;
+    min-width: 0px;
+}
+
+#join-btn1:hover {
+    color: rgb(74, 112, 124);
+    font-size: 1.7em;
+    font-weight: 600;
+    background-color: rgb(244, 203, 228);
+}
+
+#join-btn1 {
+    float: none;
+    height: 70px;
+    font-size: 1.6em;
+    margin: 20px auto;
+    clear: none;
+    width: 51.618118%;
+    padding: 0px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    color: rgb(255, 245, 217);
+    border-width: 0px;
+    background-color: rgb(231, 164, 201);
+}
+
+#name-input {
+    float: none;
+    height: 33px;
+    margin-left: auto;
+    margin-top: 20px;
+    clear: none;
+    width: 88%;
+    margin-right: auto;
+    background-color: rgb(204, 234, 235);
+}
+
+#email-input {
+    float: none;
+    height: 33px;
+    margin-left: auto;
+    margin-top: 20px;
+    clear: none;
+    width: 88%;
+    margin-right: auto;
+    background-color: rgb(204, 234, 235);
+}
+
+#dog-input {
+    float: none;
+    height: 33px;
+    margin-left: auto;
+    margin-top: 20px;
+    clear: none;
+    width: 88%;
+    margin-right: auto;
+    background-color: rgb(204, 234, 235);
+}
+
+#join-p {
+    float: none;
+    font-size: 1em;
+    width: 75%;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 10px;
+    clear: none;
+    min-height: 27px;
+    color: rgb(74, 112, 124);
+    min-width: 0px;
+    margin-right: auto;
+}
+
 
 
 
