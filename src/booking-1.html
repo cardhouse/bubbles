@@ -19,12 +19,35 @@
         <link rel="stylesheet" href="vendor/FlipClock/compiled/flipclock.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/better-simple-slideshow.js"></script>
+
+        <style>
+            #returning_dogs {
+                float: right;
+                text-align: center;
+                color: #0066ee;
+                width: 150px;
+                height: 100px;
+                margin: 20px 20px 0 0;
+                background-color: #333333;
+            }
+
+            #returning_dogs span {
+                display: inline-block;
+                vertical-align: middle;
+                line-height: normal;
+            }
+        </style>
     </head>
     <body>
 
     <div id="primaryContainer" class="primaryContainer clearfix">
         <div id="navbar" class="clearfix">
             <img id="bps-logo" src="img/bps-logo.png" class="image" />
+            <div class="pull-right" id="returning_dogs">
+                <span>Returning<br />
+                Customers<br />
+                (image?)</span>
+            </div>
         </div>
         <div id="hero-cta" class="clearfix">
             <p id="booking-hero-h">
@@ -33,6 +56,8 @@
         </div>
         <div id="ltblu-div" class="clearfix">
         </div>
+
+<!--
         <div id="ltpink-div" class="clearfix">
             <p id="booking-h">
             Have You Ever Groomed with Us Before&#x3f;
@@ -40,12 +65,32 @@
             <input id="yes-btn" type="button" value="YES"></input>
             <input id="no-btn" type="button" value="NO"></input>
         </div>
+-->
+
         <div id="ltblu-div1" class="clearfix">
             <p id="booking-instructions">
-            <span id="booking-steps-h">New to Online Booking&#x3f; It&#x27;s Easy&#x21;&#x21;</span><br /><span id="booking-steps-1">STEP 1</span>&#x3a; Enter Your Dog&#x27;s Name &amp; Breed<br /><span id="booking-steps-2">STEP 2</span>&#x3a; Pick a Date &amp; Time<br /><span id="booking-steps-3">STEP 3</span>&#x3a; Enter Your Name &amp; Contact Info<br /><span id="booking-steps-4">And That&#x27;s All...</span><br /><span id="booking-steps-5">See, you can totally do it&#x21;&#x21;</span>
+                <span id="booking-steps-h">
+                    New to Online Booking&#x3f; <br />
+                    It&#x27;s as Easy as 1 2 3&#x21;&#x21;
+                </span>
+                <br />
+                <span id="booking-steps-1">STEP 1</span>&#x3a;
+               Tell us about your dog<br />
+
+<!--
+                <span id="booking-steps-2">STEP 2</span>&#x3a;
+                Pick a Date &amp; Time<br />
+                <span id="booking-steps-3">STEP 3</span>&#x3a;
+                Enter Your Name &amp; Contact Info<br />
+                <span id="booking-steps-4">And That&#x27;s All...</span><br />
+                <span id="booking-steps-5">See, you can totally do it&#x21;&#x21;</span>
+-->
+
             </p>
+
         </div>
         <div id="dkpink-div" class="clearfix">
+<!--
             <div id="map-window" class="clearfix">
                 <input id="find-btn1" type="button" value="FIND US"></input>
             </div>
@@ -64,6 +109,35 @@
                 </div>
                 <input id="join-btn1" type="button" value="JOIN US"></input>
             </div>
+-->
+            <form action="#">
+                <!--  Input Form -->
+                <div class="form-group">
+                    <label for="dog_name">Dog's Name</label>
+                    <input id="dog_name" type="text"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="dog_breed">Breed</label>
+                    <input id="dog_breed" type="text"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="dog_size">Size (approximate)</label>
+                    <select name="dog_size" id="dog_size">
+                        <option value="sm">Small (1 - 20 lbs)</option>
+                        <option value="med">Medium (21 - 45 lbs)</option>
+                        <option value="lg">Large (46 - 80 lbs)</option>
+                        <option value="xl">X-Large (81 lbs - Horse)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Continue"/>
+                </div>
+                or
+                <a href="#">Sign In</a>
+            </form>
         </div>
         <div id="foot" class="clearfix">
             <p id="copyright">
