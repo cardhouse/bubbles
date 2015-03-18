@@ -10,11 +10,14 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <!-- Stylesheets -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/boilerplate.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/simple-slideshow-styles.css">
         <link rel="stylesheet" href="vendor/FlipClock/compiled/flipclock.css">
+
+        <!-- JavaScript -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/better-simple-slideshow.js"></script>
     </head>
@@ -28,43 +31,44 @@
                 <img id="bps-logo" src="img/bps-logo.png" class="image" />
             </div>
             <div id="hero-cta" class="clearfix">
-                <input id="book-btn" type="button" value="APPOINTMENTS"></input>
-                <input id="find-btn" type="button" value="DIRECTIONS"></input>
-                <input id="join-btn" type="button" value="COMMUNITY"></input>
+                <a href="#contact-window" class="btn btn-pink">APPOINTMENTS</a>
+                <a id="find-btn" href="#map-window" class="btn btn-pink">DIRECTIONS</a>
+                <a id="join-btn" href="#join-window" class="btn btn-pink">COMMUNITY</a>
             </div>
             <div id="ltblu-div" class="clearfix">
             </div>
             <div id="ltpink-div" class="clearfix">
-                <input id="story-btn" type="button" value="OUR STORY"></input>
-                <input id="work-btn" type="button" value="OUR WORK"></input>
+                <a id="story-btn" href="#" class="btn btn-blue">OUR STORY</a>
+                <a id="work-btn" href="#" class="btn btn-blue">OUR WORK</a>
             </div>
             <div id="dkpink-div" class="clearfix">
                 <div id="contact-window" class="clearfix">
-                    <p id="contact-h">
-                    CONTACT US
-                    </p>
-                    <p id="contact-p">
-                    &#x28;716&#x29; 568-9611<br /><br />8025 Greiner Rd &#x28;&#x40; Transit&#x29;<br />Williamsville, NY 14221<br /><br />Contact&#x40;BubblesPetSalon.com<br />
-                    </p>
-                    <input id="book-btn1" type="button" value="BOOK US"></input>
+                    <p id="contact-h">Make an Appointment</p>
+                    <address id="contact-p">
+                        &#x28;716&#x29; 568-9611<br /><br />
+                        8025 Greiner Rd &#x28;&#x40; Transit&#x29;<br />
+                        Williamsville, NY 14221<br /><br />
+                        Contact&#x40;BubblesPetSalon.com<br />
+                    </address>
+
+                    <!-- Taking this out for now (until the system is set up) -->
+                    <!-- <a id="book-btn1" href="#" class="btn btn-blue">Book Now</a> -->
+
                 </div>
                 <div id="map-window" class="clearfix">
-                    <input id="find-btn1" type="button" value="FIND US"></input>
+                    <a id="find-btn1" href="#" class="btn btn-blue">Directions</a>
                 </div>
                 <div id="join-window" class="clearfix">
                     <p id="join-h">
-                    JOIN OUR COMMUNITY
+                    JOIN OUR MAILING LIST
                     </p>
                     <p id="join-p">
                     Sign up for FREE and get special deals, secret coupons, events &amp; MORE&#x21;&#x21;
                     </p>
-                    <div id="name-input" class="clearfix">
-                    </div>
-                    <div id="email-input" class="clearfix">
-                    </div>
-                    <div id="dog-input" class="clearfix">
-                    </div>
-                    <input id="join-btn1" type="button" value="JOIN US"></input>
+                    <div id="name-input" class="clearfix"></div>
+                    <div id="email-input" class="clearfix"></div>
+                    <div id="dog-input" class="clearfix"></div>
+                    <input id="join-btn1" type="button" value="JOIN NOW">
                 </div>
             </div>
             <div id="foot" class="clearfix">
