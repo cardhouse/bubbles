@@ -93,6 +93,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-image: url('../tile.png');
+}
+
 .primaryContainer {
     height: auto;
     margin-left: auto;
@@ -101,26 +105,11 @@ textarea {
     width: 100%;
 }
 
-#foot {
-    float: none;
-    height: 50px;
-    width: 100%;
-    background-color: rgb(39, 34, 35);
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 17;
-    margin-top: 0px;
-    margin-left: auto;
-    clear: both;
-    margin-right: auto;
-}
-
-#dkpink-div {
+.dkpink-div {
     float: left;
     height: auto;
     width: 100%;
-    background-color: rgb(231, 164, 201);
+    background-color: #f38bb4;
     position: relative;
     top: 0px;
     left: 0px;
@@ -131,9 +120,10 @@ textarea {
     clear: both;
 }
 
-#ltpink-div {
+.ltpink-div {
     float: left;
-    height: 100px;
+    height: auto;
+    min-height: 40px;
     width: 100%;
     background-color: rgb(244, 203, 228);
     position: relative;
@@ -142,9 +132,9 @@ textarea {
     z-index: 11;
 }
 
-#ltblu-div {
+.ltblu-div {
     float: left;
-    height: 50px;
+    height: 20px;
     width: 100%;
     background-color: rgb(204, 234, 235);
     position: relative;
@@ -156,23 +146,15 @@ textarea {
     clear: both;
 }
 
-#bps-logo {
-    float: left;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 2;
-    margin-top: 30px;
-    margin-left: 5%;
-    clear: none;
-    margin-bottom: 10px;
+.stripe-div {
+    width: 100%;
+    min-height: 40px;
+    margin: 0;
+    padding: 40px;
+    border-bottom: 8px solid rgb(204, 234, 235);
 }
 
-#navbar {
+.navbar {
     float: left;
     height: auto;
     width: 100%;
@@ -185,6 +167,21 @@ textarea {
     margin-left: 0%;
     clear: none;
     padding-bottom: 10px;
+}
+
+.bps-logo {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    margin-top: 10px;
+    margin-left: 5%;
+    clear: none;
 }
 
 #hero-cta {
@@ -203,130 +200,49 @@ textarea {
     display: block;
 }
 
-#book-btn {
+.primaryBtn {
     float: left;
     height: 70px;
-    font-size: 1.2em;
-    margin-left: 49.996745%;
-    margin-top: 30px;
+    font-size: 1.1em;
+    margin-top: 25px;
     clear: none;
     width: 40%;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    background-color: rgb(231, 164, 201);
+    padding:23px;
+    background-color: #f38bb4;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
     border-bottom-left-radius: 35px;
     color: rgb(255, 245, 217);
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-}
-
-#find-btn {
-    float: left;
-    height: 70px;
-    font-size: 1.2em;
-    margin-left: 49.996745%;
-    margin-top: 20px;
-    clear: both;
-    width: 40%;
-    margin-right: 0%;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    background-color: rgb(231, 164, 201);
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    color: rgb(255, 245, 217);
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-}
-
-#join-btn {
-    float: left;
-    height: 70px;
-    font-size: 1.2em;
-    margin-left: 49.996745%;
-    margin-top: 20px;
-    clear: both;
-    width: 40%;
-    margin-right: 0%;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    background-color: rgb(231, 164, 201);
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    color: rgb(255, 245, 217);
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    -webkit-box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
-    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
-}
-
-#copyright {
-    float: none;
-    font-size: 0.8em;
-    width: 84.136874%;
-    height: auto;
+    border: 0;
     text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: auto;
-    margin-top: 10px;
-    clear: none;
-    min-height: 0px;
-    color: rgb(255, 245, 217);
-    margin-right: auto;
+    font-weight: 500;
 }
 
-#designer {
-    float: none;
-    font-size: 0.7em;
-    width: 84.136874%;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: auto;
-    margin-top: 5px;
-    clear: none;
-    min-height: 0px;
-    color: rgb(255, 245, 217);
-    margin-right: auto;
+.primaryBtn:hover {
+    background-color: rgb(244, 203, 228);
+    color: rgb(74, 112, 124);
+    font-weight: 500;
 }
 
-#story-btn {
+.home-cta-btn {
+    margin-left: 49.996745%;
+}
+
+.secondBtn {
     float: left;
-    height: 70px;
-    font-size: 1.4em;
+    height: 60px;
+    font-size: 1em;
     margin-left: 6.33155%;
     margin-top: 15px;
+    margin-bottom: 15px;
     clear: none;
     width: 40%;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border-bottom-left-radius: 35px;
+    padding: 21px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     color: rgb(255, 245, 217);
     border-top-width: 0px;
     border-right-width: 0px;
@@ -334,65 +250,15 @@ textarea {
     border-left-width: 0px;
     background-color: rgb(74, 112, 124);
     margin-right: 0%;
+    text-align: center;
 }
 
-#work-btn {
-    float: left;
-    height: 70px;
-    font-size: 1.4em;
-    margin-left: 7.443894%;
-    margin-top: 15px;
-    clear: none;
-    width: 40%;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    color: rgb(255, 245, 217);
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    margin-right: 0%;
-    background-color: rgb(74, 112, 124);
-}
-
-#book-btn:hover {
-    background-color: rgb(244, 203, 228);
-    color: rgb(74, 112, 124);
-    font-size: 1.3em;
-    font-weight: 600;
-}
-
-#find-btn:hover {
-    background-color: rgb(244, 203, 228);
-    color: rgb(74, 112, 124);
-    font-size: 1.3em;
-    font-weight: 600;
-}
-
-#join-btn:hover {
-    background-color: rgb(244, 203, 228);
-    color: rgb(74, 112, 124);
-    font-size: 1.3em;
-    font-weight: 600;
-}
-
-#story-btn:hover {
+.secondBtn:hover {
     color: rgb(74, 112, 124);
     background-color: rgb(204, 234, 235);
 }
 
-#work-btn:hover {
-    color: rgb(74, 112, 124);
-    background-color: rgb(204, 234, 235);
-}
-
-#contact-window {
+.info-window {
     float: none;
     height: auto;
     margin-left: auto;
@@ -420,18 +286,18 @@ textarea {
     border-bottom-left-radius: 33px;
 }
 
-#contact-h {
+.info-h {
     float: none;
-    font-size: 1em;
-    width: 41%;
+    font-size: 1.6em;
+    width: 85%;
     height: auto;
     text-align: center;
     font-weight: 600;
-    line-height: 1em;
+    line-height: 1.4em;
     margin-left: auto;
-    margin-top: 30px;
+    margin-top: 15px;
     clear: none;
-    min-height: 28px;
+    min-height: 40px;
     margin-right: auto;
     border-bottom-width: 2px;
     color: rgb(74, 112, 124);
@@ -439,7 +305,7 @@ textarea {
     border-bottom-style: solid;
 }
 
-#contact-p {
+.info-p {
     float: none;
     font-size: 1.2em;
     width: 90%;
@@ -450,170 +316,60 @@ textarea {
     margin-left: auto;
     margin-top: 25px;
     clear: none;
-    min-height: 120px;
     margin-right: auto;
     color: rgb(74, 112, 124);
 }
 
-#book-btn1:hover {
-    color: rgb(74, 112, 124);
-    font-size: 1.6em;
-    font-weight: 600;
-    background-color: rgb(244, 203, 228);
+.map-div {
+    float: none;
+    clear: none;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(255, 245, 217);
+    background:url("../img/bubbles_street_map.png") center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
-#book-btn1 {
+.map-p {
     float: none;
-    height: 70px;
-    font-size: 1.6em;
+    font-size: 1.2em;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 200px;
+    clear: none;
+    margin-right: auto;
+    color: rgb(74, 112, 124);
+    text-shadow: 1px 2px #fff;
+}
+
+.form-input {
+    float: none;
+    height: 33px;
     margin-left: auto;
     margin-top: 20px;
     clear: none;
-    width: 51.618118%;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    color: rgb(255, 245, 217);
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    background-color: rgb(231, 164, 201);
+    width: 88%;
     margin-right: auto;
-    margin-bottom: 20px;
-}
-
-#map-window {
-    float: none;
-    height: auto;
-    margin-left: auto;
-    margin-top: 30px;
-    clear: none;
-    width: 85%;
-    min-height: 300px;
-    border-bottom-color: rgb(244, 203, 228);
-    border-bottom-width: 6px;
-    border-bottom-style: solid;
-    border-top-color: rgb(244, 203, 228);
-    border-right-color: rgb(244, 203, 228);
-    border-left-color: rgb(244, 203, 228);
-    border-top-width: 6px;
-    border-right-width: 6px;
-    border-left-width: 6px;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-left-style: solid;
-    background-color: rgb(255, 245, 217);
-    margin-right: auto;
-    background-image:url("../img/bubbles_street_map.png");
-    background-position: 0% 40%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    background-size: cover;
-    border-top-left-radius: 33px;
-    border-top-right-radius: 33px;
-    border-bottom-right-radius: 33px;
-    border-bottom-left-radius: 33px;
-}
-
-#find-btn1:hover {
-    color: rgb(74, 112, 124);
-    font-size: 1.6em;
-    font-weight: 600;
-    background-color: rgb(244, 203, 228);
-}
-
-#find-btn1 {
-    float: none;
-    height: 70px;
-    font-size: 1.6em;
-    margin-left: auto;
-    margin-top: 212px;
-    clear: none;
-    width: 51.618118%;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    color: rgb(255, 245, 217);
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    margin-right: auto;
-    margin-bottom: 20px;
-    background-color: rgb(231, 164, 201);
-}
-
-#join-window {
-    float: none;
-    height: auto;
-    margin-left: auto;
-    margin-top: 30px;
-    clear: none;
-    width: 85%;
-    min-height: 300px;
-    border-bottom-color: rgb(244, 203, 228);
-    border-bottom-width: 6px;
-    border-bottom-style: solid;
-    border-top-color: rgb(244, 203, 228);
-    border-right-color: rgb(244, 203, 228);
-    border-left-color: rgb(244, 203, 228);
-    border-top-width: 6px;
-    border-right-width: 6px;
-    border-left-width: 6px;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-left-style: solid;
-    background-color: rgb(255, 245, 217);
-    margin-right: auto;
-    border-top-left-radius: 33px;
-    border-top-right-radius: 33px;
-    border-bottom-right-radius: 33px;
-    border-bottom-left-radius: 33px;
-}
-
-#join-h {
-    float: none;
-    font-size: 1em;
-    width: 64%;
-    height: auto;
+    background-color: rgb(204, 234, 235);
     text-align: center;
-    font-weight: 600;
-    line-height: 1em;
-    margin-left: auto;
-    margin-top: 30px;
-    clear: none;
-    min-height: 27px;
-    margin-right: auto;
-    border-bottom-width: 2px;
-    color: rgb(74, 112, 124);
-    border-bottom-color: rgb(74, 112, 124);
-    border-bottom-style: solid;
-    min-width: 0px;
 }
 
 #join-btn1:hover {
     color: rgb(74, 112, 124);
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-weight: 600;
     background-color: rgb(244, 203, 228);
 }
 
 #join-btn1 {
     float: none;
-    height: 70px;
-    font-size: 1.6em;
+    height: 60px;
+    font-size: 1.2em;
     margin-left: auto;
     margin-top: 20px;
     clear: none;
@@ -622,10 +378,10 @@ textarea {
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border-bottom-left-radius: 35px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     color: rgb(255, 245, 217);
     border-top-width: 0px;
     border-right-width: 0px;
@@ -633,389 +389,61 @@ textarea {
     border-left-width: 0px;
     margin-right: auto;
     margin-bottom: 20px;
-    background-color: rgb(231, 164, 201);
+    background-color: #f38bb4;
 }
 
-#name-input {
+.page-bottom {
+    margin-bottom: 40px;
+}
+
+.foot {
     float: none;
-    height: 33px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(39, 34, 35);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 17;
+    margin-top: 0px;
     margin-left: auto;
-    margin-top: 20px;
-    clear: none;
-    width: 88%;
+    clear: both;
     margin-right: auto;
-    background-color: rgb(204, 234, 235);
 }
 
-#email-input {
+.copyright {
     float: none;
-    height: 33px;
-    margin-left: auto;
-    margin-top: 20px;
-    clear: none;
-    width: 88%;
-    margin-right: auto;
-    background-color: rgb(204, 234, 235);
-}
-
-#dog-input {
-    float: none;
-    height: 33px;
-    margin-left: auto;
-    margin-top: 20px;
-    clear: none;
-    width: 88%;
-    margin-right: auto;
-    background-color: rgb(204, 234, 235);
-}
-
-#join-p {
-    float: none;
-    font-size: 1em;
-    width: 75%;
+    font-size: 0.8em;
+    width: 84.136874%;
     height: auto;
     text-align: center;
-    font-weight: 500;
+    font-weight: normal;
     line-height: 1em;
     margin-left: auto;
     margin-top: 10px;
     clear: none;
-    min-height: 27px;
-    color: rgb(74, 112, 124);
-    min-width: 0px;
+    min-height: 0px;
+    color: rgb(255, 245, 217);
     margin-right: auto;
 }
 
-@media only screen and (min-width: 481px) {
-    #join-h {
-        font-size: 1.6em;
-        min-height: 33px;
-        width: 70%;
-    }
-
-    #join-p {
-        font-size: 1.4em;
-        margin-top: 15px;
-    }
-
-    #contact-h {
-        min-height: 30px;
-        font-size: 1.5em;
-        width: 40%;
-    }
-
-    #contact-p {
-        font-size: 1.8em;
-    }
-
-    #copyright {
-        width: 85%;
-        margin-top: 15px;
-        font-size: 1em;
-    }
-
-    #designer {
-        margin-top: 7px;
-        margin-bottom: 20px;
-        font-size: 0.9em;
-    }
-
-    #foot {
-        height: auto;
-    }
-
-    #join-btn {
-        font-size: 1.5em;
-        height: 80px;
-    }
-
-    #book-btn {
-        font-size: 1.5em;
-        height: 80px;
-    }
-
-    #find-btn {
-        font-size: 1.5em;
-        height: 80px;
-    }
-
-    #hero-cta {
-        height: 340px;
-    }
+.designer {
+    float: none;
+    font-size: 0.7em;
+    width: 84.136874%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 5px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 245, 217);
+    margin-right: auto;
 }
 
-@media only screen and (min-width: 641px) {
-    #hero-cta {
-        height: 520px;
-    }
 
-    #book-btn {
-        height: 120px;
-        width: 44%;
-        font-size: 2.2em;
-        border-top-left-radius: 60px;
-        border-top-right-radius: 60px;
-        border-bottom-right-radius: 60px;
-        border-bottom-left-radius: 60px;
-        margin-top: 40px;
-    }
-
-    #find-btn {
-        height: 120px;
-        width: 44%;
-        font-size: 2.2em;
-        border-top-left-radius: 60px;
-        border-top-right-radius: 60px;
-        border-bottom-right-radius: 60px;
-        border-bottom-left-radius: 60px;
-        margin-top: 40px;
-    }
-
-    #join-btn {
-        height: 120px;
-        width: 44%;
-        font-size: 2.2em;
-        border-top-left-radius: 60px;
-        border-top-right-radius: 60px;
-        border-bottom-right-radius: 60px;
-        border-bottom-left-radius: 60px;
-        margin-top: 40px;
-    }
-
-    #book-btn:hover {
-        font-size: 2.3em;
-    }
-
-    #find-btn:hover {
-        font-size: 2.3em;
-    }
-
-    #join-btn:hover {
-        font-size: 2.3em;
-    }
-
-    #contact-h {
-        font-size: 2.7em;
-        width: 50%;
-        min-height: 55px;
-        margin-top: 40px;
-    }
-
-    #contact-p {
-        font-size: 2.6em;
-        margin-top: 35px;
-    }
-
-    #book-btn1 {
-        width: 50%;
-        height: 100px;
-        font-size: 3em;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-bottom-left-radius: 50px;
-        margin-top: 30px;
-        margin-bottom: 40px;
-    }
-
-    #find-btn1 {
-        width: 50%;
-        height: 100px;
-        font-size: 3em;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-bottom-left-radius: 50px;
-        margin-top: 300px;
-        clear: none;
-        margin-bottom: 40px;
-    }
-
-    #join-btn1 {
-        width: 50%;
-        height: 100px;
-        font-size: 3em;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-bottom-left-radius: 50px;
-        margin-bottom: 40px;
-        margin-top: 40px;
-    }
-
-    #book-btn1:hover {
-        font-size: 3em;
-    }
-
-    #find-btn1:hover {
-        font-size: 3em;
-    }
-
-    #join-btn1:hover {
-        font-size: 3em;
-    }
-
-    #story-btn {
-        font-size: 2em;
-        height: 86px;
-        border-top-left-radius: 43px;
-        border-top-right-radius: 43px;
-        border-bottom-right-radius: 43px;
-        border-bottom-left-radius: 43px;
-        margin-bottom: 15px;
-    }
-
-    #work-btn {
-        font-size: 2em;
-        height: 86px;
-        border-top-left-radius: 43px;
-        border-top-right-radius: 43px;
-        border-bottom-right-radius: 43px;
-        border-bottom-left-radius: 43px;
-        margin-bottom: 15px;
-    }
-
-    #story-btn:hover {
-        font-size: 2.1em;
-    }
-
-    #work-btn:hover {
-        font-size: 2.1em;
-    }
-
-    #ltpink-div {
-        height: auto;
-    }
-
-    #join-h {
-        font-size: 2.4em;
-        width: 80%;
-        min-height: 50px;
-        margin-top: 40px;
-    }
-
-    #map-window {
-        min-height: 400px;
-        border-top-left-radius: 45px;
-        border-top-right-radius: 45px;
-        border-bottom-right-radius: 45px;
-        border-bottom-left-radius: 45px;
-    }
-
-    #join-p {
-        font-size: 2em;
-        margin-top: 25px;
-    }
-
-    #name-input {
-        height: 55px;
-        margin-top: 30px;
-    }
-
-    #email-input {
-        height: 55px;
-        margin-top: 30px;
-    }
-
-    #dog-input {
-        height: 55px;
-        margin-top: 30px;
-    }
-
-    #bps-logo {
-        width: 150px;
-    }
-
-    #copyright {
-        margin-top: 20px;
-        font-size: 1.4em;
-    }
-
-    #foot {
-        height: auto;
-    }
-
-    #designer {
-        font-size: 1.2em;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-
-    #join-window {
-        border-top-left-radius: 45px;
-        border-top-right-radius: 45px;
-        border-bottom-right-radius: 45px;
-        border-bottom-left-radius: 45px;
-    }
-
-    #contact-window {
-        border-top-left-radius: 45px;
-        border-top-right-radius: 45px;
-        border-bottom-right-radius: 45px;
-        border-bottom-left-radius: 45px;
-    }
-}
-
-@media only screen and (min-width: 961px) {
-    #contact-h {
-        font-size: 3.8em;
-        min-height: 72px;
-    }
-
-    #hero-cta {
-        height: 640px;
-    }
-
-    #book-btn {
-        height: 160px;
-        border-top-left-radius: 80px;
-        border-top-right-radius: 80px;
-        border-bottom-right-radius: 80px;
-        border-bottom-left-radius: 80px;
-        font-size: 3.1em;
-    }
-
-    #find-btn {
-        height: 160px;
-        border-top-left-radius: 80px;
-        border-top-right-radius: 80px;
-        border-bottom-right-radius: 80px;
-        border-bottom-left-radius: 80px;
-        font-size: 3.1em;
-    }
-
-    #join-btn {
-        height: 160px;
-        border-top-left-radius: 80px;
-        border-top-right-radius: 80px;
-        border-bottom-right-radius: 80px;
-        border-bottom-left-radius: 80px;
-        font-size: 3.1em;
-    }
-
-    #work-btn {
-        font-size: 2.5em;
-        height: 100px;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-bottom-left-radius: 50px;
-    }
-
-    #story-btn {
-        font-size: 2.5em;
-        height: 100px;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-bottom-left-radius: 50px;
-    }
-
-    #join-h {
-        font-size: 3.4em;
-        min-height: 64px;
-    }
-}
 
 
 
