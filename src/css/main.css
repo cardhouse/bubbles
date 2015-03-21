@@ -106,8 +106,8 @@ body {
 }
 
 .breath {
-    width: 96%;
-    margin: 2px 2%;
+    width: 85%;
+    margin: 2px auto;
 }
 
 .pull-left {
@@ -408,6 +408,10 @@ body {
     text-shadow: 1px 2px #fff;
 }
 
+.form-wrap{
+    margin: 30px auto;
+}
+
 .form-input {
     float: none;
     height: 33px;
@@ -419,6 +423,20 @@ body {
     background-color: rgb(204, 234, 235);
     text-align: center;
     border: none;
+}
+
+.form-btn {
+    float: none;
+    height: 50px;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 10px;
+    clear: none;
+    width: 88%;
+    margin-right: auto;
+    background-color: #e7a4c9;
+    text-align: center;
+    border: none;   
 }
 
 #join-btn1:hover {
