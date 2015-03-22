@@ -24,17 +24,28 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div id="primaryContainer" class="primaryContainer clearfix">
+<div class="primaryContainer clearfix">
     <div class="navbar clearfix">
-        <img class="bps-logo image" src="http://localhost:8080/img/bps-web_logo.png" />
+        <div class="pull-left">
+            <img class="bps-logo" src="img/bps-web_logo.png" />
+        </div>
+        <div class="pull-right">
+            <p class="user-info">
+                <span>
+                    <!-- This changes to the user's name -->
+                    HI MICHAEL
+                    <!-- This will be a form for an ajax request -->
+                    <!-- It will only show up if the user has dogs -->
+                </span>
+                &nbsp | &nbsp
+                <span>
+                    LOG OUT
+                </span>
+            </p>
+        </div>
     </div>
 
-    <!-- This changes to the user's name -->
-    Hello Michael
-
-    <!-- This will be a form for an ajax request -->
-    <!-- It will only show up if the user has dogs -->
-    <div>
+    <div class="page-content">
         <h2>Book appointment for:</h2>
         <ul>
             <li>
@@ -60,29 +71,25 @@
 
         <br/>
 
-        <input type="button" value="Find Openings">
-    </div>
-
-    <!-- This should generate with available appointments -->
-    <!-- It will get information via an ajax request from above form -->
-    <!-- We should also include pagination in order to show more available days -->
-    <!-- I think it will also be in another form...I am working on that logic still -->
-
-    <div class="appointment-list">
-        <div class="day">
-            <span>Monday, April 20</span>
-            <p>Drop off dog at 8:00am | Pick up by 10:30am</p>
-            <p>Drop off dog at 11:00am | Pick up by 12:30pm</p>
-            <p>Drop off dog at 1:00pm | Pick up by 5:00pm</p>
+        <input type="button" value="Find Openings" class="primaryBtn join-btn">
+        <!-- This should generate with available appointments -->
+        <!-- It will get information via an ajax request from above form -->
+        <!-- We should also include pagination in order to show more available days -->
+        <!-- I think it will also be in another form...I am working on that logic still -->
+        <div class="appointment-list">
+            <div class="day">
+                <span>Monday, April 20</span>
+                <p>Drop off dog at 8:00am | Pick up by 10:30am</p>
+                <p>Drop off dog at 11:00am | Pick up by 12:30pm</p>
+                <p>Drop off dog at 1:00pm | Pick up by 5:00pm</p>
+            </div>
+            <br/>
+            <div class="day">
+                <span>Tuesday, April 21</span>
+                <p>Drop off dog at 8:00am | Pick up by 10:30am</p>
+            </div>
         </div>
-        <br/>
-        <div class="day">
-            <span>Tuesday, April 21</span>
-            <p>Drop off dog at 8:00am | Pick up by 10:30am</p>
-        </div>
-
     </div>
-
 
     <div class="foot clearfix">
         <p class="copyright">

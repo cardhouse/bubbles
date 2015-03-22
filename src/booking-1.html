@@ -20,120 +20,50 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/better-simple-slideshow.js"></script>
 
-        <style>
-            #returning_dogs {
-                float: right;
-                text-align: center;
-                color: #0066ee;
-                width: 150px;
-                height: 100px;
-                margin: 20px 20px 0 0;
-                background-color: #333333;
-            }
-
-            #returning_dogs span {
-                display: inline-block;
-                vertical-align: middle;
-                line-height: normal;
-            }
-        </style>
+        
     </head>
     <body>
 
-    <div id="primaryContainer" class="primaryContainer clearfix">
-        <div id="navbar" class="clearfix">
-            <img id="bps-logo" src="img/bps-logo.png" class="image" />
-            <div class="pull-right" id="returning_dogs">
-                <span>Returning<br />
-                Customers<br />
-                (image?)</span>
+    <div class="primaryContainer clearfix">
+        <div class="navbar clearfix">
+            <div class="pull-left">
+                <img class="bps-logo" src="img/bps-web_logo.png" />
             </div>
-        </div>
-        <div id="hero-cta" class="clearfix">
-            <p id="booking-hero-h">
-            MAKE AN APPOINTMENT
-            </p>
-        </div>
-        <div id="ltblu-div" class="clearfix">
-        </div>
-
-<!--
-        <div id="ltpink-div" class="clearfix">
-            <p id="booking-h">
-            Have You Ever Groomed with Us Before&#x3f;
-            </p>
-            <input id="yes-btn" type="button" value="YES"></input>
-            <input id="no-btn" type="button" value="NO"></input>
-        </div>
--->
-
-        <div id="ltblu-div1" class="clearfix">
-            <p id="booking-instructions">
-                <span id="booking-steps-h">
-                    New to Online Booking&#x3f; <br />
-                    It&#x27;s as Easy as 1 2 3&#x21;&#x21;
-                </span>
-                <br />
-                <span id="booking-steps-1">STEP 1</span>&#x3a;
-               Tell us about your dog<br />
-
-<!--
-                <span id="booking-steps-2">STEP 2</span>&#x3a;
-                Pick a Date &amp; Time<br />
-                <span id="booking-steps-3">STEP 3</span>&#x3a;
-                Enter Your Name &amp; Contact Info<br />
-                <span id="booking-steps-4">And That&#x27;s All...</span><br />
-                <span id="booking-steps-5">See, you can totally do it&#x21;&#x21;</span>
--->
-
-            </p>
-
-        </div>
-        <div id="dkpink-div" class="clearfix">
-<!--
-            <div id="map-window" class="clearfix">
-                <input id="find-btn1" type="button" value="FIND US"></input>
-            </div>
-            <div id="join-window" class="clearfix">
-                <p id="join-h">
-                JOIN OUR COMMUNITY
+            <div class="pull-right">
+                <p class="user-info">
+                    <span>
+                        SIGN UP
+                    </span>
+                    &nbsp | &nbsp
+                    <span>
+                        LOG IN
+                    </span>
                 </p>
-                <p id="join-p">
-                Sign up for FREE and get special deals, secret coupons, events &amp; MORE&#x21;&#x21;
-                </p>
-                <div id="name-input" class="clearfix">
-                </div>
-                <div id="email-input" class="clearfix">
-                </div>
-                <div id="dog-input" class="clearfix">
-                </div>
-                <input id="join-btn1" type="button" value="JOIN US"></input>
             </div>
--->
-            <form action="#">
+        </div>
+        <div class="hero-cta clearfix" id="book1-hero">
+        </div>
+        <div class="ltblu-div clearfix">
+        </div>
+        <div class="stripe-div clearfix">
+            <h2 class="center">Have You Groomed w/ Us Before?</h2>
+        </div>
+        <div class="ltpink-div clearfix">
+            <a href="#" class="btn secondBtn">YES</a>
+            <a href="#" class="btn secondBtn">NO</a>
+        </div>
+        <div class="breath center" id="dkpink-div" class="clearfix">
+            <form class="form-wrap" action="#">
                 <!--  Input Form -->
-                <div class="form-group">
-                    <label for="dog_name">Dog's Name</label>
-                    <input id="dog_name" type="text"/>
-                </div>
-
-                <div class="form-group">
-                    <label for="dog_breed">Breed</label>
-                    <input id="dog_breed" type="text"/>
-                </div>
-
-                <div class="form-group">
-                    <label for="dog_size">Size (approximate)</label>
-                    <select name="dog_size" id="dog_size">
-                        <option value="sm">Small (1 - 20 lbs)</option>
-                        <option value="med">Medium (21 - 45 lbs)</option>
-                        <option value="lg">Large (46 - 80 lbs)</option>
-                        <option value="xl">X-Large (81 lbs - Horse)</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <input type="submit" value="Continue"/>
+                <input class="form-input clearfix" id="dog_name" type="text" placeholder="Enter Your Dog's Name" />
+                <input class="form-input clearfix" id="dog_breed" type="text" placeholder="Enter Your Dog's Breed" />
+                <select class="form-input clearfix" name="dog_size" id="dog_size">
+                    <option value="sm">Small (1 - 20 lbs)</option>
+                    <option value="med">Medium (21 - 45 lbs)</option>
+                    <option value="lg">Large (46 - 80 lbs)</option>
+                    <option value="xl">X-Large (81 lbs - Horse)</option>
+                </select>
+                <input class="form-btn clearfix" type="submit" value="Continue"/>
                 </div>
                 or
                 <a href="#">Sign In</a>

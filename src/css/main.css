@@ -105,6 +105,33 @@ body {
     width: 100%;
 }
 
+.page-content {
+    min-height: 90vh;
+}
+
+.breath {
+    width: 85%;
+    margin: 2px auto;
+}
+
+.pull-left {
+    float: left;
+    max-width: 48%;
+}
+
+.pull-right {
+    float: right;
+    max-width: 48%;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    clear: both;
+}
+
 .dkpink-div {
     float: left;
     height: auto;
@@ -140,7 +167,19 @@ body {
     position: relative;
     top: 0px;
     left: 0px;
-    z-index: 8;
+    margin-top: 0px;
+    margin-left: 0%;
+    clear: both;
+}
+
+.ltblu-div-sml {
+    float: left;
+    height: 6px;
+    width: 100%;
+    background-color: rgb(204, 234, 235);
+    position: relative;
+    top: 0px;
+    left: 0px;
     margin-top: 0px;
     margin-left: 0%;
     clear: both;
@@ -166,12 +205,11 @@ body {
     margin-top: 0px;
     margin-left: 0%;
     clear: none;
-    padding-bottom: 10px;
+    padding: 0 10px;
+    padding-bottom: 0;
 }
 
 .bps-logo {
-    float: left;
-    width: auto;
     max-width: 100%;
     height: auto;
     color: rgb(0, 0, 0);
@@ -179,40 +217,48 @@ body {
     top: 0px;
     left: 0px;
     z-index: 2;
-    margin-top: 10px;
-    margin-left: 5%;
+    margin: 10px 1%;
     clear: none;
 }
 
-#hero-cta {
-    margin-left: 0%;
+.headerBtn {
     float: left;
-    height: 320px;
-    margin-top: 0px;
-    clear: both;
-    width: 100%;
-    background-image:url("../img/curious_chihuahua.png");
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f38bb4;
+    text-align: center;
+    padding: 12px; 
+    margin: 20px 5px;
+    color: rgb(255, 245, 217);
+}
+
+.loginBtn {
+
+}
+
+.signupBtn {
+
+}
+
+.user-info {
+    font-size: .66em;
+    font-weight: 550;
+    color: rgb(204, 234, 235);
+    margin-top: 25px;
+
 }
 
 .primaryBtn {
     float: left;
-    height: 70px;
-    font-size: 1.1em;
+    height: 60px;
+    font-size: 1em;
     margin-top: 25px;
     clear: none;
-    width: 40%;
-    padding:23px;
+    width: 55%;
+    padding:20px;
     background-color: #f38bb4;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border-bottom-left-radius: 35px;
+    border-radius: 35px;
     color: rgb(255, 245, 217);
     border: 0;
     text-align: center;
@@ -223,10 +269,6 @@ body {
     background-color: rgb(244, 203, 228);
     color: rgb(74, 112, 124);
     font-weight: 500;
-}
-
-.home-cta-btn {
-    margin-left: 49.996745%;
 }
 
 .secondBtn {
@@ -256,6 +298,33 @@ body {
 .secondBtn:hover {
     color: rgb(74, 112, 124);
     background-color: rgb(204, 234, 235);
+}
+
+.hero-cta {
+    margin-left: 0%;
+    float: left;
+    height: 320px;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    background-position: 37% 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+}
+
+#home-hero {
+    background-image:url("../img/curious_chihuahua.png");
+}
+
+.home-cta-btn {
+    margin-left: 40%;
+}
+
+#book1-hero {
+    background-image:url("../img/Comp_2783841.jpg");
 }
 
 .info-window {
@@ -347,6 +416,10 @@ body {
     text-shadow: 1px 2px #fff;
 }
 
+.form-wrap{
+    margin: 30px auto;
+}
+
 .form-input {
     float: none;
     height: 33px;
@@ -357,16 +430,31 @@ body {
     margin-right: auto;
     background-color: rgb(204, 234, 235);
     text-align: center;
+    border: none;
 }
 
-#join-btn1:hover {
+.form-btn {
+    float: none;
+    height: 50px;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 10px;
+    clear: none;
+    width: 88%;
+    margin-right: auto;
+    background-color: #e7a4c9;
+    text-align: center;
+    border: none;   
+}
+
+.join-btn:hover {
     color: rgb(74, 112, 124);
     font-size: 1.2em;
     font-weight: 600;
     background-color: rgb(244, 203, 228);
 }
 
-#join-btn1 {
+.join-btn {
     float: none;
     height: 60px;
     font-size: 1.2em;
@@ -447,13 +535,72 @@ body {
 
 
 
+@media screen and (min-width: 360px) {
+
+}
 
 
 
+@media screen and (min-width: 480px) {
+    .primaryBtn {
+        height: 70px;
+        font-size: 1.2em;
+        padding:23px;
+    }
+}
 
 
 
+@media screen and (min-width: 640px) {
+    .primaryBtn {
+        height: 80px;
+        font-size: 1.4em;
+        padding:26px;
+        border-radius: 40px;
+    }
+    #home-hero {
+        height: 400px;
+    }
+    .bps-logo {
+        max-width: 100%;
+    }
+}
 
+
+
+@media screen and (min-width: 768px) {
+    .primaryBtn {
+        height: 80px;
+        font-size: 1.6em;
+        padding:23px;
+        
+    }
+
+}
+
+
+
+@media screen and (min-width: 960px) {
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
+@media screen and (min-width: 1900px) {
+
+}
 
 
 

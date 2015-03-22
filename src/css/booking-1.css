@@ -1,26 +1,18 @@
-#ltpink-div {
-    float: left;
+.booking-hero-h {
+    position: relative;
+    float: none;
+    font-size: 1.6em;
+    width: auto;
     height: auto;
-    width: 100%;
-    background-color: rgb(244, 203, 228);
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 11;
-}
-
-#ltblu-div {
-    float: left;
-    height: 10px;
-    width: 100%;
-    background-color: rgb(204, 234, 235);
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 8;
-    margin-top: 0px;
-    margin-left: 0%;
-    clear: both;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+    margin-left: auto;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(255, 245, 217);
+    text-shadow: rgb(74, 112, 124) 0px 2px 7px;
 }
 
 #hero-cta {
@@ -39,22 +31,7 @@
     background-repeat: no-repeat no-repeat;
 }
 
-#booking-hero-h {
-    float: none;
-    font-size: 1.6em;
-    width: auto;
-    height: auto;
-    text-align: center;
-    font-weight: 700;
-    line-height: 1em;
-    margin-left: auto;
-    margin-top: 210px;
-    clear: none;
-    min-height: 0px;
-    margin-right: auto;
-    color: rgb(255, 245, 217);
-    text-shadow: rgb(74, 112, 124) 0px 2px 7px;
-}
+
 
 #booking-h {
     float: none;
@@ -72,66 +49,6 @@
     color: rgb(74, 112, 124);
 }
 
-#yes-btn:hover {
-    color: rgb(74, 112, 124);
-    background-color: rgb(204, 234, 235);
-}
-
-#yes-btn {
-    float: left;
-    height: 50px;
-    font-size: 1.9em;
-    margin: 10px 0% 10px 16.246745%;
-    clear: none;
-    width: 30%;
-    padding: 0px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    color: rgb(255, 245, 217);
-    border-width: 0px;
-    display: block;
-    background-color: rgb(74, 112, 124);
-}
-
-#no-btn:hover {
-    color: rgb(74, 112, 124);
-    background-color: rgb(204, 234, 235);
-}
-
-#no-btn {
-    float: left;
-    height: 50px;
-    font-size: 1.9em;
-    margin: 10px 0% 10px 7.441406%;
-    clear: none;
-    width: 30%;
-    padding: 0px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    color: rgb(255, 245, 217);
-    border-width: 0px;
-    display: block;
-    background-color: rgb(74, 112, 124);
-}
-
-#ltblu-div1 {
-    float: left;
-    height: auto;
-    width: 100%;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 8;
-    margin-top: 0px;
-    margin-left: 0%;
-    clear: both;
-    background-color: rgb(204, 234, 235);
-    margin-right: 0%;
-}
 
 #booking-instructions {
     float: none;
@@ -154,40 +71,6 @@
     font-weight: 600;
 }
 
-#booking-steps-4 {
-    float: none;
-    font-size: 1em;
-    line-height: 1.4em;
-    font-weight: 600;
-}
-
-#booking-steps-1 {
-    float: none;
-    font-size: 1em;
-    line-height: 1em;
-    font-weight: 600;
-}
-
-#booking-steps-2 {
-    float: none;
-    font-size: 1em;
-    line-height: 1em;
-    font-weight: 600;
-}
-
-#booking-steps-3 {
-    float: none;
-    font-size: 1em;
-    line-height: 1em;
-    font-weight: 600;
-}
-
-#booking-steps-5 {
-    float: none;
-    font-size: 1.2em;
-    line-height: 1em;
-    font-style: italic;
-}
 
 @media only screen and (min-width: 481px) {
     #booking-hero-h {
